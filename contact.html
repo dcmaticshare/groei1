@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Groei door verbinding</title>
+  <meta name="description" content="Neem contact op met Ingrid Monsieur voor een vrijblijvend kennismakingsgesprek.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a class="logo" href="index.html"><img src="assets/logo-transparant.webp" alt="Groei door verbinding"></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="aanbod.html">Aanbod</a>
+        <a href="over-mij.html">Over mij</a>
+        <a href="tarieven.html">Tarieven</a>
+        <a href="contact.html" class="btn-contact">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Menu openen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="menu-overlay"></div>
+  <aside class="mobile-menu" aria-label="Mobiel menu">
+    <div class="menu-top">
+      <img src="assets/logo-transparant.webp" alt="Groei door verbinding">
+      <button class="close-menu" aria-label="Menu sluiten">&times;</button>
+    </div>
+    <nav class="menu-links">
+      <a href="index.html">Home</a>
+      <a href="aanbod.html">Aanbod</a>
+      <a href="over-mij.html">Over mij</a>
+      <a href="tarieven.html">Tarieven</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a class="btn btn-terra menu-cta" href="contact.html">Plan een kennismaking</a>
+    <div class="menu-contact">0470 00 00 00<br>info@groeidoorverbinding.be</div>
+  </aside>
+
+  <main class="page page-contact">
+    <div class="contact-info">
+      <h1>Contact</h1>
+      <p>De eerste stap zetten vraagt moed. Je mag me altijd bellen of mailen — of stuur een berichtje via het formulier, dan neem ik snel contact met je op.</p>
+      <div class="rij"><span class="label">tel.</span> 0470 00 00 00</div>
+      <div class="rij"><span class="label">mail</span> info@groeidoorverbinding.be</div>
+      <div class="rij"><span class="label">adres</span> praktijkadres <span style="font-family: monospace; font-size: 13px; color: #8b8370;">(aan te vullen)</span></div>
+      <div class="kaart placeholder"><span>kaartje / foto praktijk</span></div>
+    </div>
+
+    <div class="contact-form">
+      <h2>Stuur een berichtje</h2>
+      <form>
+        <div style="display: flex; flex-direction: column; gap: 18px;">
+          <div class="form-rij">
+            <input type="text" name="naam" placeholder="Je naam" required>
+            <input type="email" name="email" placeholder="Je e-mailadres" required>
+          </div>
+          <input type="tel" name="telefoon" placeholder="Je telefoonnummer (optioneel)">
+          <textarea name="bericht" rows="6" placeholder="Waarmee kan ik je helpen?" required></textarea>
+          <button class="btn btn-terra" type="submit">Verstuur</button>
+          <span class="form-status" aria-live="polite"></span>
+          <span class="privacy">Je gegevens worden vertrouwelijk behandeld en enkel gebruikt om je te contacteren.</span>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="kolom">
+        <img src="assets/logo-transparant.webp" alt="">
+        <span>Ingrid Monsieur · praktijkadres · 0470 00 00 00 · info@groeidoorverbinding.be</span>
+      </div>
+      <nav>
+        <a href="aanbod.html">Aanbod</a>
+        <a href="over-mij.html">Over mij</a>
+        <a href="tarieven.html">Tarieven</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
